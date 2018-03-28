@@ -1,0 +1,22 @@
+<suite name="mozilla" parallel="none">
+<test name="silaye"  >
+<classes>
+<class name="silayetest.Silaye">
+   <methods>
+          <!--  <exclude name="registration"></exclude>   
+           <exclude name="gmail_validation"></exclude>    -->
+           <include name="login"></include>   
+          <!--  <exclude name="profile"></exclude>   
+           <exclude name="addnewstyle1"></exclude>   
+           <exclude name="techpacks"></exclude>    -->
+   
+   </methods>
+</class>
+<class name="silayetest.Basic_subscription">
+
+</class>
+
+
+</classes>
+</test><!-- Test --> 
+</suite>

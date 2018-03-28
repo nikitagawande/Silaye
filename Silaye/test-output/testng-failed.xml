@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mozilla suite]">
+  <test name="silaye(failed)">
+    <classes>
+      <class name="silayetest.Silaye">
+        <methods>
+          <include name="Buy_option"/>
+          <include name="addnewstyle3"/>
+          <include name="addnewstyle2"/>
+          <include name="subscription_2"/>
+          <include name="profile"/>
+          <include name="techpacks"/>
+          <include name="techpacks_1"/>
+          <include name="addnewstyle1"/>
+          <include name="beforeTest"/>
+          <include name="subscription_1"/>
+          <include name="login"/>
+          <include name="team_members"/>
+        </methods>
+      </class> <!-- silayetest.Silaye -->
+    </classes>
+  </test> <!-- silaye(failed) -->
+</suite> <!-- Failed suite [Mozilla suite] -->

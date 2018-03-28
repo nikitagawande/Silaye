@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mozilla]" parallel="none">
+  <test name="silaye(failed)" parallel="none">
+    <classes>
+      <class name="silayetest.Basic_subscription">
+        <methods>
+          <include name="notification_request"/>
+          <include name="team_members"/>
+          <include name="accepting_request"/>
+          <include name="pay"/>
+          <include name="assignstyle"/>
+          <include name="logout"/>
+          <include name="sourcing_logout"/>
+          <include name="techpacks_1"/>
+          <include name="addnewstyle2"/>
+          <include name="login_sourcing_user"/>
+          <include name="payment_status"/>
+        </methods>
+      </class> <!-- silayetest.Basic_subscription -->
+      <class name="silayetest.Silaye">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- silayetest.Silaye -->
+    </classes>
+  </test> <!-- silaye(failed) -->
+</suite> <!-- Failed suite [mozilla] -->

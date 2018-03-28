@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Chrome suite]">
+  <test name="Test case 1(failed)">
+    <classes>
+      <class name="silayetest.Silaye">
+        <methods>
+          <include name="techpacks"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- silayetest.Silaye -->
+    </classes>
+  </test> <!-- Test case 1(failed) -->
+</suite> <!-- Failed suite [Chrome suite] -->
